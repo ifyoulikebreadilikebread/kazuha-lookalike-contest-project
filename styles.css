@@ -1,5 +1,5 @@
 .kazuha {
-  width: 40vw;
+  width: 100vw;
   border: solid lavender;
 }
 header{
@@ -7,28 +7,30 @@ header{
 }
 
 section{
-  width: 100%;
+  width: 50%;
 }
 
-title{
-  position: center;
+.event-title{
+  text-align: center;
   margin: 0 auto;
 }
 
 body{
-  padding: 50px 0;
-  margin: 0 auto;
-  transform: translateX(50%);
+  transform: translateX(0%);
   min-height: calc(100vh - 100px);
   width: 100vw;
 }
 
 hr{
-  width: 100%
+  width: 100vw;
+  display: inline-block;
 }
 
 .listing{
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
-
+ul{
+  list-style-type: none;
+}
