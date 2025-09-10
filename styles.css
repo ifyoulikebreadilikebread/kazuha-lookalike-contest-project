@@ -1,5 +1,5 @@
 .kazuha {
-  width: 40%;
+  width: 40vw;
   border: solid lavender;
 }
 header{
@@ -27,7 +27,8 @@ hr{
   width: 100%
 }
 
-.judges{
+.listing{
   display: flex;
   flex-direction: row;
 }
+
